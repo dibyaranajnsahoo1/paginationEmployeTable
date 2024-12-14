@@ -44,7 +44,7 @@ const CardPage = () => {
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-      <h1>Employee Data Pagination</h1>
+      <h1>Employee Data Table</h1>
           <EmployeTable
             data={data}
             currentPage={currentPage}
