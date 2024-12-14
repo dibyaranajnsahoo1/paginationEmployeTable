@@ -54,14 +54,14 @@ const CardPage = () => {
           <div style={{ marginTop: "20px", display: "flex", justifyContent: "center" }}>
             <button
               onClick={handlePrevious}
-              disabled={currentPage === 1}
+            //   disabled={currentPage === 1}
               style={{
                 padding: "10px 20px",
                 margin: "0 10px",
                 background: currentPage === 1 ? "#ccc" : "rgb(16, 150, 123)",
                 color: "white",
                 border: "none",
-                cursor: currentPage === 1 ? "not-allowed" : "pointer",
+               
                 borderRadius: "5px",
               }}
             >
@@ -74,14 +74,14 @@ const CardPage = () => {
 
             <button
               onClick={handleNext}
-              disabled={currentPage === totalPages}
+            //   disabled={currentPage === totalPages}
               style={{
                 padding: "10px 20px",
                 margin: "0 10px",
                 backgroundColor: currentPage === totalPages ? "#ccc" : "rgb(16, 150, 123)",
                 color: "white",
                 border: "none",
-                cursor: currentPage === totalPages ? "not-allowed" : "pointer",
+                // cursor: currentPage === totalPages ? "not-allowed" : "pointer",
                 borderRadius: "5px",
               }}
             >
